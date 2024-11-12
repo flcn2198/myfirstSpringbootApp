@@ -1,0 +1,4 @@
+build -> docker build -t demo:1.0 .
+check images ->  docker images
+run -> docker run -p 9090:9090 demo:1.0
+check images -> docker images
